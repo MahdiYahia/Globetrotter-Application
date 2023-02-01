@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="hu.bme.aut.mobweb.wf72qq.globetrotter.CountryListActivity">
+    <item
+        android:id="@+id/map"
+        android:title="@string/map" />
+    <item
+        android:id="@+id/about"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="@string/about"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/logout"
+        android:title="@string/logout" />
+</menu>
